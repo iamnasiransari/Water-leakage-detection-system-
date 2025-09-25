@@ -1,6 +1,6 @@
     body {
       font-family: Arial, sans-serif;
-      background-color: #f7fbff;
+      background-color: #aec4d8;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -15,7 +15,7 @@
       background: white;
       width: 380px;
       border-radius: 15px;
-      box-shadow: 15px 25px 25px rgba(0,0,0,0.1);
+      box-shadow: 15px 25px 35px rgba(0,0,0,0.1);
       overflow: hidden;
       justify-content: center;
      
