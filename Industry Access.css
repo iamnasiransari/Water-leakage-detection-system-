@@ -72,7 +72,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../home/bg.jpg') no-repeat center center/cover;
+    background: url(https://img.freepik.com/free-photo/water-texture_1048-4511.jpg) no-repeat center center/cover;
     opacity: 0.7;
     z-index: -1;
 }
