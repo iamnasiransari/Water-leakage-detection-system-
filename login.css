@@ -26,7 +26,7 @@ body {
 
 h2 {
   text-align: center;
-  color: #1671b5;
+  color: #198754;
   font-weight: 700;
   margin: 6px 0 15px 0;
   letter-spacing: 0.5px;
@@ -44,7 +44,7 @@ h2 {
   border: none;
   outline: none;
   background: #e8f3fb;
-  color: #1671b5;
+  color: #c3d0db;
   font-weight: 600;
   font-size: 1.04rem;
   padding: 11px 13px;
@@ -54,7 +54,7 @@ h2 {
 }
 
 .login-toggle button.active {
-  background: linear-gradient(90deg, #43c7e2, #1671b5 90%);
+  background: linear-gradient(90deg, #198754 90%);
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ form {
 }
 
 label {
-  color: #1671b5;
+  color: #198754;
   font-weight: 500;
 }
 
@@ -93,7 +93,7 @@ input:focus, select:focus {
 
 .submit-btn {
   margin-top: 7px;
-  background: linear-gradient(90deg, #43c7e2, #1671b5 90%);
+  background: linear-gradient(90deg, #198754 90%);
   color: #fff;
   border: none;
   font-weight: 600;
@@ -106,8 +106,9 @@ input:focus, select:focus {
 }
 
 .submit-btn:hover {
-  background: linear-gradient(90deg, #1671b5, #43c7e2 90%);
+  background: linear-gradient(90deg, #198754 90%);
   transform: translateY(-2px) scale(1.025);
+  opacity: 0.9
 }
 
 .toggle-password {
@@ -116,7 +117,7 @@ input:focus, select:focus {
   top: 34px;
   font-size: .97rem;
   cursor: pointer;
-  color: #1671b5;
+  color: #198754;
   font-weight: 600;
   opacity: .82;
   user-select: none;
@@ -142,3 +143,4 @@ input:focus, select:focus {
   .login-container { padding: 19px 7px 22px 7px; min-width: unset; }
   .login-toggle button { font-size: 1rem; padding: 10px 0; }
 }
+
