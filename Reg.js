@@ -28,10 +28,9 @@ function togglePassword() {
       const phone = document.getElementById('phone').value.trim();
       const email = document.getElementById('email').value.trim();
       const password = document.getElementById('password').value;
-      const confirmPassword = document.getElementById('confirm-password').value;
 
       // Basic validation
-      if (!fullname || !phone || !email || !password || !confirmPassword) {
+      if (!fullname || !phone || !email || !password) {
         alert('Please fill in all fields.');
         return;
       }
@@ -46,21 +45,21 @@ function togglePassword() {
         return;
       }
 
-      if (password !== confirmPassword) {
-        alert('Passwords do not match.');
-        return;
-      }
+      // if (password !== confirmPassword) {
+      //   alert('Passwords do not match.');
+      //   return;
+      // }
 
       // Prepare data
       const userData = {
-        fullname: fullname,
+        fullName: fullname,
         phone: phone,
         email: email,
         password: password
       };
 
       try {
-        const response = await fetch('https://wls-backend-files.onrender.com/api/user/register', {
+        const response = await fetch('http://localhost:5000/api/user/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
